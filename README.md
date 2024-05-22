@@ -1,4 +1,4 @@
-# Lat-PFN: LaT-PFN: A Joint Embedding Predictive Architecture for In-context Time-series Forecasting
+# Lat-PFN: A Joint Embedding Predictive Architecture for In-context Time-series Forecasting
 
 The official repository of LatentTimePFN (LaT-PFN) [available as preprint on Arxiv](https://arxiv.org/abs/2405.10093)
 
