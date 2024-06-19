@@ -1,0 +1,19 @@
+torch>=2.3.0
+numpy>=1.26.*
+scipy>=1.12.0
+lightning>=2.1.4
+pandas>=2.2.*
+polars>=0.20.26
+gpytorch>=1.11
+mup>=1.0.0
+black
+seaborn
+matplotlib
+wandb==0.16.4
+# tensorflow==2.9.3
+# keras==2.9.0
+# statsmodel
+# prophet
+scikit-learn
+tqdm
+optuna>=3.6.1

@@ -1,0 +1,902 @@
+# This is a base shape file encoded in yaml
+# - `null` indicates a dimension is "finite", i.e. a non-"width" dimension
+# - a number indicates the base dimension of an "infinite" dimension, i.e. some notion of "width"
+TS_ema.module.mlp.0.ff.0.bias:
+- 64
+TS_ema.module.mlp.0.ff.0.weight:
+- 64
+- 64
+TS_ema.module.mlp.0.ff.2.bias:
+- 64
+TS_ema.module.mlp.0.ff.2.weight:
+- 64
+TS_ema.module.mlp.1.attn.in_proj_bias:
+- 192
+TS_ema.module.mlp.1.attn.in_proj_weight:
+- 192
+- 64
+TS_ema.module.mlp.1.attn.out_proj.bias:
+- 64
+TS_ema.module.mlp.1.attn.out_proj.weight:
+- 64
+- 64
+TS_ema.module.mlp.1.ff.0.bias:
+- 64
+TS_ema.module.mlp.1.ff.0.weight:
+- 64
+TS_ema.module.mlp.1.ff.1.bias:
+- 64
+TS_ema.module.mlp.1.ff.1.weight:
+- 64
+- 64
+TS_ema.module.mlp.1.ff.3.bias:
+- 64
+TS_ema.module.mlp.1.ff.3.weight:
+- 64
+TS_ema.module.mlp.2.bias:
+- 64
+TS_ema.module.mlp.2.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.0.depthwise.0.bias:
+- null
+TS_ema.module.mobilenet.0.depthwise.0.weight:
+- null
+- null
+- null
+TS_ema.module.mobilenet.0.depthwise.1.bias:
+- null
+TS_ema.module.mobilenet.0.depthwise.1.weight:
+- null
+TS_ema.module.mobilenet.0.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.0.pointwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.0.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.0.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.0.proj.bias:
+- 64
+TS_ema.module.mobilenet.0.proj.weight:
+- 64
+- null
+TS_ema.module.mobilenet.1.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.1.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.1.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.1.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.1.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.1.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.1.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.1.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.1.proj.bias:
+- 64
+TS_ema.module.mobilenet.1.proj.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.2.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.2.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.2.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.2.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.2.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.2.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.2.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.2.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.2.proj.bias:
+- 64
+TS_ema.module.mobilenet.2.proj.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.3.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.3.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.3.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.3.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.3.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.3.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.3.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.3.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.3.proj.bias:
+- 64
+TS_ema.module.mobilenet.3.proj.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.4.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.4.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.4.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.4.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.4.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.4.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.4.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.4.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.4.proj.bias:
+- 64
+TS_ema.module.mobilenet.4.proj.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.5.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.5.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.5.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.5.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.5.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.5.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.5.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.5.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.5.proj.bias:
+- 64
+TS_ema.module.mobilenet.5.proj.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.6.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.6.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.6.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.6.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.6.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.6.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.6.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.6.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.6.proj.bias:
+- 64
+TS_ema.module.mobilenet.6.proj.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.7.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.7.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.7.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.7.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.7.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.7.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.7.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.7.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.7.proj.bias:
+- 64
+TS_ema.module.mobilenet.7.proj.weight:
+- 64
+- 64
+TS_ema.module.mobilenet.8.depthwise.0.bias:
+- 64
+TS_ema.module.mobilenet.8.depthwise.0.weight:
+- 64
+- null
+- null
+TS_ema.module.mobilenet.8.depthwise.1.bias:
+- 64
+TS_ema.module.mobilenet.8.depthwise.1.weight:
+- 64
+TS_ema.module.mobilenet.8.pointwise.0.bias:
+- 64
+TS_ema.module.mobilenet.8.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_ema.module.mobilenet.8.pointwise.1.bias:
+- 64
+TS_ema.module.mobilenet.8.pointwise.1.weight:
+- 64
+TS_ema.module.mobilenet.8.proj.bias:
+- 64
+TS_ema.module.mobilenet.8.proj.weight:
+- 64
+- 64
+TS_encoder.mlp.0.ff.0.bias:
+- 64
+TS_encoder.mlp.0.ff.0.weight:
+- 64
+- 64
+TS_encoder.mlp.0.ff.2.bias:
+- 64
+TS_encoder.mlp.0.ff.2.weight:
+- 64
+TS_encoder.mlp.1.attn.in_proj_bias:
+- 192
+TS_encoder.mlp.1.attn.in_proj_weight:
+- 192
+- 64
+TS_encoder.mlp.1.attn.out_proj.bias:
+- 64
+TS_encoder.mlp.1.attn.out_proj.weight:
+- 64
+- 64
+TS_encoder.mlp.1.ff.0.bias:
+- 64
+TS_encoder.mlp.1.ff.0.weight:
+- 64
+TS_encoder.mlp.1.ff.1.bias:
+- 64
+TS_encoder.mlp.1.ff.1.weight:
+- 64
+- 64
+TS_encoder.mlp.1.ff.3.bias:
+- 64
+TS_encoder.mlp.1.ff.3.weight:
+- 64
+TS_encoder.mlp.2.bias:
+- 64
+TS_encoder.mlp.2.weight:
+- 64
+- 64
+TS_encoder.mobilenet.0.depthwise.0.bias:
+- null
+TS_encoder.mobilenet.0.depthwise.0.weight:
+- null
+- null
+- null
+TS_encoder.mobilenet.0.depthwise.1.bias:
+- null
+TS_encoder.mobilenet.0.depthwise.1.weight:
+- null
+TS_encoder.mobilenet.0.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.0.pointwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.0.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.0.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.0.proj.bias:
+- 64
+TS_encoder.mobilenet.0.proj.weight:
+- 64
+- null
+TS_encoder.mobilenet.1.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.1.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.1.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.1.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.1.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.1.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.1.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.1.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.1.proj.bias:
+- 64
+TS_encoder.mobilenet.1.proj.weight:
+- 64
+- 64
+TS_encoder.mobilenet.2.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.2.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.2.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.2.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.2.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.2.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.2.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.2.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.2.proj.bias:
+- 64
+TS_encoder.mobilenet.2.proj.weight:
+- 64
+- 64
+TS_encoder.mobilenet.3.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.3.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.3.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.3.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.3.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.3.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.3.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.3.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.3.proj.bias:
+- 64
+TS_encoder.mobilenet.3.proj.weight:
+- 64
+- 64
+TS_encoder.mobilenet.4.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.4.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.4.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.4.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.4.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.4.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.4.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.4.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.4.proj.bias:
+- 64
+TS_encoder.mobilenet.4.proj.weight:
+- 64
+- 64
+TS_encoder.mobilenet.5.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.5.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.5.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.5.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.5.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.5.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.5.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.5.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.5.proj.bias:
+- 64
+TS_encoder.mobilenet.5.proj.weight:
+- 64
+- 64
+TS_encoder.mobilenet.6.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.6.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.6.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.6.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.6.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.6.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.6.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.6.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.6.proj.bias:
+- 64
+TS_encoder.mobilenet.6.proj.weight:
+- 64
+- 64
+TS_encoder.mobilenet.7.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.7.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.7.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.7.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.7.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.7.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.7.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.7.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.7.proj.bias:
+- 64
+TS_encoder.mobilenet.7.proj.weight:
+- 64
+- 64
+TS_encoder.mobilenet.8.depthwise.0.bias:
+- 64
+TS_encoder.mobilenet.8.depthwise.0.weight:
+- 64
+- null
+- null
+TS_encoder.mobilenet.8.depthwise.1.bias:
+- 64
+TS_encoder.mobilenet.8.depthwise.1.weight:
+- 64
+TS_encoder.mobilenet.8.pointwise.0.bias:
+- 64
+TS_encoder.mobilenet.8.pointwise.0.weight:
+- 64
+- 64
+- null
+TS_encoder.mobilenet.8.pointwise.1.bias:
+- 64
+TS_encoder.mobilenet.8.pointwise.1.weight:
+- 64
+TS_encoder.mobilenet.8.proj.bias:
+- 64
+TS_encoder.mobilenet.8.proj.weight:
+- 64
+- 64
+avg_pool.attn.in_proj_bias:
+- 192
+avg_pool.attn.in_proj_weight:
+- 192
+- 64
+avg_pool.attn.out_proj.bias:
+- 64
+avg_pool.attn.out_proj.weight:
+- 64
+- 64
+avg_pool.embedding_layer.0.bias:
+- 64
+avg_pool.embedding_layer.0.weight:
+- 64
+- 64
+avg_pool.embedding_layer.1.bias:
+- 64
+avg_pool.embedding_layer.1.weight:
+- 64
+avg_pool.output.0.bias:
+- 64
+avg_pool.output.0.weight:
+- 64
+- 192
+avg_pool.output.1.bias:
+- 64
+avg_pool.output.1.weight:
+- 64
+avg_pool.query.weight:
+- null
+- 64
+head_di.0.ff.0.bias:
+- 64
+head_di.0.ff.0.weight:
+- 64
+- 64
+head_di.0.ff.2.bias:
+- 64
+head_di.0.ff.2.weight:
+- 64
+head_di.1.ff.0.bias:
+- 64
+head_di.1.ff.0.weight:
+- 64
+- 64
+head_di.1.ff.2.bias:
+- 64
+head_di.1.ff.2.weight:
+- 64
+head_raw.0.ff.0.bias:
+- 64
+head_raw.0.ff.0.weight:
+- 64
+- 64
+head_raw.0.ff.2.bias:
+- 64
+head_raw.0.ff.2.weight:
+- 64
+head_raw.1.ff.0.bias:
+- 64
+head_raw.1.ff.0.weight:
+- 64
+- 64
+head_raw.1.ff.2.bias:
+- 64
+head_raw.1.ff.2.weight:
+- 64
+head_raw.2.ff.0.bias:
+- 64
+head_raw.2.ff.0.weight:
+- 64
+- 64
+head_raw.2.ff.2.bias:
+- 64
+head_raw.2.ff.2.weight:
+- 64
+head_raw.3.weight:
+- null
+- 64
+last_layer_di.bias:
+- null
+last_layer_di.weight:
+- null
+- 64
+pfn.decoder.layers.0.linear1.bias:
+- 128
+pfn.decoder.layers.0.linear1.weight:
+- 128
+- 64
+pfn.decoder.layers.0.linear2.bias:
+- 64
+pfn.decoder.layers.0.linear2.weight:
+- 64
+- 128
+pfn.decoder.layers.0.multihead_attn.bias_k:
+- null
+- null
+- 64
+pfn.decoder.layers.0.multihead_attn.bias_v:
+- null
+- null
+- 64
+pfn.decoder.layers.0.multihead_attn.in_proj_bias:
+- 192
+pfn.decoder.layers.0.multihead_attn.in_proj_weight:
+- 192
+- 64
+pfn.decoder.layers.0.multihead_attn.out_proj.bias:
+- 64
+pfn.decoder.layers.0.multihead_attn.out_proj.weight:
+- 64
+- 64
+pfn.decoder.layers.0.norm1.bias:
+- 64
+pfn.decoder.layers.0.norm1.weight:
+- 64
+pfn.decoder.layers.0.norm2.bias:
+- 64
+pfn.decoder.layers.0.norm2.weight:
+- 64
+pfn.decoder.layers.0.norm3.bias:
+- 64
+pfn.decoder.layers.0.norm3.weight:
+- 64
+pfn.decoder.layers.0.self_attn.bias_k:
+- null
+- null
+- 64
+pfn.decoder.layers.0.self_attn.bias_v:
+- null
+- null
+- 64
+pfn.decoder.layers.0.self_attn.in_proj_bias:
+- 192
+pfn.decoder.layers.0.self_attn.in_proj_weight:
+- 192
+- 64
+pfn.decoder.layers.0.self_attn.out_proj.bias:
+- 64
+pfn.decoder.layers.0.self_attn.out_proj.weight:
+- 64
+- 64
+pfn.decoder.layers.1.linear1.bias:
+- 128
+pfn.decoder.layers.1.linear1.weight:
+- 128
+- 64
+pfn.decoder.layers.1.linear2.bias:
+- 64
+pfn.decoder.layers.1.linear2.weight:
+- 64
+- 128
+pfn.decoder.layers.1.multihead_attn.bias_k:
+- null
+- null
+- 64
+pfn.decoder.layers.1.multihead_attn.bias_v:
+- null
+- null
+- 64
+pfn.decoder.layers.1.multihead_attn.in_proj_bias:
+- 192
+pfn.decoder.layers.1.multihead_attn.in_proj_weight:
+- 192
+- 64
+pfn.decoder.layers.1.multihead_attn.out_proj.bias:
+- 64
+pfn.decoder.layers.1.multihead_attn.out_proj.weight:
+- 64
+- 64
+pfn.decoder.layers.1.norm1.bias:
+- 64
+pfn.decoder.layers.1.norm1.weight:
+- 64
+pfn.decoder.layers.1.norm2.bias:
+- 64
+pfn.decoder.layers.1.norm2.weight:
+- 64
+pfn.decoder.layers.1.norm3.bias:
+- 64
+pfn.decoder.layers.1.norm3.weight:
+- 64
+pfn.decoder.layers.1.self_attn.bias_k:
+- null
+- null
+- 64
+pfn.decoder.layers.1.self_attn.bias_v:
+- null
+- null
+- 64
+pfn.decoder.layers.1.self_attn.in_proj_bias:
+- 192
+pfn.decoder.layers.1.self_attn.in_proj_weight:
+- 192
+- 64
+pfn.decoder.layers.1.self_attn.out_proj.bias:
+- 64
+pfn.decoder.layers.1.self_attn.out_proj.weight:
+- 64
+- 64
+pfn.decoder.layers.2.linear1.bias:
+- 128
+pfn.decoder.layers.2.linear1.weight:
+- 128
+- 64
+pfn.decoder.layers.2.linear2.bias:
+- 64
+pfn.decoder.layers.2.linear2.weight:
+- 64
+- 128
+pfn.decoder.layers.2.multihead_attn.bias_k:
+- null
+- null
+- 64
+pfn.decoder.layers.2.multihead_attn.bias_v:
+- null
+- null
+- 64
+pfn.decoder.layers.2.multihead_attn.in_proj_bias:
+- 192
+pfn.decoder.layers.2.multihead_attn.in_proj_weight:
+- 192
+- 64
+pfn.decoder.layers.2.multihead_attn.out_proj.bias:
+- 64
+pfn.decoder.layers.2.multihead_attn.out_proj.weight:
+- 64
+- 64
+pfn.decoder.layers.2.norm1.bias:
+- 64
+pfn.decoder.layers.2.norm1.weight:
+- 64
+pfn.decoder.layers.2.norm2.bias:
+- 64
+pfn.decoder.layers.2.norm2.weight:
+- 64
+pfn.decoder.layers.2.norm3.bias:
+- 64
+pfn.decoder.layers.2.norm3.weight:
+- 64
+pfn.decoder.layers.2.self_attn.bias_k:
+- null
+- null
+- 64
+pfn.decoder.layers.2.self_attn.bias_v:
+- null
+- null
+- 64
+pfn.decoder.layers.2.self_attn.in_proj_bias:
+- 192
+pfn.decoder.layers.2.self_attn.in_proj_weight:
+- 192
+- 64
+pfn.decoder.layers.2.self_attn.out_proj.bias:
+- 64
+pfn.decoder.layers.2.self_attn.out_proj.weight:
+- 64
+- 64
+pfn.encoder.layers.0.linear1.bias:
+- 128
+pfn.encoder.layers.0.linear1.weight:
+- 128
+- 64
+pfn.encoder.layers.0.linear2.bias:
+- 64
+pfn.encoder.layers.0.linear2.weight:
+- 64
+- 128
+pfn.encoder.layers.0.norm1.bias:
+- 64
+pfn.encoder.layers.0.norm1.weight:
+- 64
+pfn.encoder.layers.0.norm2.bias:
+- 64
+pfn.encoder.layers.0.norm2.weight:
+- 64
+pfn.encoder.layers.0.self_attn.bias_k:
+- null
+- null
+- 64
+pfn.encoder.layers.0.self_attn.bias_v:
+- null
+- null
+- 64
+pfn.encoder.layers.0.self_attn.in_proj_bias:
+- 192
+pfn.encoder.layers.0.self_attn.in_proj_weight:
+- 192
+- 64
+pfn.encoder.layers.0.self_attn.out_proj.bias:
+- 64
+pfn.encoder.layers.0.self_attn.out_proj.weight:
+- 64
+- 64
+pfn.encoder.layers.1.linear1.bias:
+- 128
+pfn.encoder.layers.1.linear1.weight:
+- 128
+- 64
+pfn.encoder.layers.1.linear2.bias:
+- 64
+pfn.encoder.layers.1.linear2.weight:
+- 64
+- 128
+pfn.encoder.layers.1.norm1.bias:
+- 64
+pfn.encoder.layers.1.norm1.weight:
+- 64
+pfn.encoder.layers.1.norm2.bias:
+- 64
+pfn.encoder.layers.1.norm2.weight:
+- 64
+pfn.encoder.layers.1.self_attn.bias_k:
+- null
+- null
+- 64
+pfn.encoder.layers.1.self_attn.bias_v:
+- null
+- null
+- 64
+pfn.encoder.layers.1.self_attn.in_proj_bias:
+- 192
+pfn.encoder.layers.1.self_attn.in_proj_weight:
+- 192
+- 64
+pfn.encoder.layers.1.self_attn.out_proj.bias:
+- 64
+pfn.encoder.layers.1.self_attn.out_proj.weight:
+- 64
+- 64
+pfn.encoder.layers.2.linear1.bias:
+- 128
+pfn.encoder.layers.2.linear1.weight:
+- 128
+- 64
+pfn.encoder.layers.2.linear2.bias:
+- 64
+pfn.encoder.layers.2.linear2.weight:
+- 64
+- 128
+pfn.encoder.layers.2.norm1.bias:
+- 64
+pfn.encoder.layers.2.norm1.weight:
+- 64
+pfn.encoder.layers.2.norm2.bias:
+- 64
+pfn.encoder.layers.2.norm2.weight:
+- 64
+pfn.encoder.layers.2.self_attn.bias_k:
+- null
+- null
+- 64
+pfn.encoder.layers.2.self_attn.bias_v:
+- null
+- null
+- 64
+pfn.encoder.layers.2.self_attn.in_proj_bias:
+- 192
+pfn.encoder.layers.2.self_attn.in_proj_weight:
+- 192
+- 64
+pfn.encoder.layers.2.self_attn.out_proj.bias:
+- 64
+pfn.encoder.layers.2.self_attn.out_proj.weight:
+- 64
+- 64
+proj.0.ff.0.bias:
+- 64
+proj.0.ff.0.weight:
+- 64
+- 64
+proj.0.ff.2.bias:
+- 64
+proj.0.ff.2.weight:
+- 64

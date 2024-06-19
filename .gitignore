@@ -1,0 +1,177 @@
+venv
+.venv
+.venv/*
+tmp*
+
+# data
+data/**/feature_store/*
+data/**/offline_store/*
+data/**/cache_base/**/*
+data/**/cache_full/**/*
+data/**/cache/**/*
+
+# config
+config/workspace.yaml
+
+# wandb
+wandb
+
+# dagster
+dagster/*
+!dagster/dagster.yaml
+
+# debug
+debug-data
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.py~
+
+# jshint-stylish-ex color theme
+.stylishcolors
+
+# C extensions
+*.so
+
+# Documentation files
+builddir/
+_build
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Node / gulp stuff
+node_modules
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+/target/
+
+# Vim
+*.swp
+
+# Eclipse / PyDev
+.project
+.pydevproject
+.settings
+.idea
+
+local/
+output/
+/bigdata/
+
+.ipynb_checkpoints/
+Analysis Weather Effects.ipynb
+Backtest Model 1.ipynb
+Extracting Test Data.ipynb
+Model 2 Item Boosting.ipynb
+Model 3.1 ColabFilterSuprise.ipynb
+shoeby/*.ipynb
+
+**/logs/*.txt
+
+
+logs/*
+!logs/recom_metrics.log
+post_experiment_analysis/timesensitivy.code-workspace
+/archive
+/backtestdata
+/.vscode
+Stock*
+
+#hydra
+/outputs/
+
+#direnv
+.envrc
+
+venv
+venv/*
+.venv
+.venv/
+.env
+
+wandb
+wandb/*
+
+# folder results
+sales_distr_strat_results/
+stock_distr_strate_results/
+backtest/*
+
+gitignored
+gitignored/*
+config/workspace.yaml
+
+./*.deb
+Miniconda*
+lightning_logs
+pfn
+pfn/*
+time-pfn
+time-pfn/*
+model_weights
+
+test_datasets/
+test_datasets/*
+
+dev.ipynb
+new_env
+new_env/*
+time-pfn-prior_v1
+*.ckpt
+
+machine.py
+
+drive/*
+./drive
+./drive/*
+drive
+
+venv
+venv/*
+LaT-PFN
+LaT-PFN/*
+
+datasets/*
