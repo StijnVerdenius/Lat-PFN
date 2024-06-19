@@ -7,7 +7,20 @@ This work introduces LaT-PFN, a novel time series model that combines PFN and JE
 ## Abstract
 
 ```text
-We introduce LatentTimePFN (LaT-PFN), a foundational Time Series model with a strong embedding space that enables zero-shot forecasting. To achieve this, we perform in-context learning in latent space utilizing a novel integration of the Prior-data Fitted Networks (PFN) and Joint Embedding Predictive Architecture (JEPA) frameworks. We leverage the JEPA framework to create a prediction-optimized latent representation of the underlying stochastic process that generates time series and combines it with contextual learning, using a PFN. Furthermore, we improve on preceding works by utilizing related time series as a context and introducing an normalized abstract time axis. This reduces training time and increases the versatility of the model by allowing any time granularity and forecast horizon. We show that this results in superior zero-shot predictions compared to established baselines. We also demonstrate our latent space produces informative embeddings of both individual time steps and fixed-length summaries of entire series. Finally, we observe the emergence of multi-step patch embeddings without explicit training, suggesting the model actively learns discrete tokens that encode local structures in the data, analogous to vision transformers.
+We introduce LatentTimePFN (LaT-PFN), a foundational Time Series model with a strong embedding
+space that enables zero-shot forecasting. To achieve this, we perform in-context learning in
+latent space utilizing a novel integration of the Prior-data Fitted Networks (PFN) and Joint
+Embedding Predictive Architecture (JEPA) frameworks. We leverage the JEPA framework to create
+a prediction-optimized latent representation of the underlying stochastic process that generates
+time series and combines it with contextual learning, using a PFN. Furthermore, we improve on
+preceding works by utilizing related time series as a context and introducing an normalized
+abstract time axis. This reduces training time and increases the versatility of the model by
+allowing any time granularity and forecast horizon. We show that this results in superior
+zero-shot predictions compared to established baselines. We also demonstrate our latent space
+produces informative embeddings of both individual time steps and fixed-length summaries of
+entire series. Finally, we observe the emergence of multi-step patch embeddings without explicit
+training, suggesting the model actively learns discrete tokens that encode local structures
+in the data, analogous to vision transformers.
 ```
 
 ## Installation
