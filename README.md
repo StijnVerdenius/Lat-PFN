@@ -4,6 +4,11 @@ The official repository of LatentTimePFN (LaT-PFN) [available as preprint on Arx
 
 This work introduces LaT-PFN, a novel time series model that combines PFN and JEPA frameworks to generate zero-shot forecasts efficiently, using a versatile latent space that enables adaptable time granularity and superior predictive performance.
 
+
+![forecast fits of the LaT-PFN model](https://wair.ai/wp-content/uploads/2024/06/forecast-paper.png)
+
+See also [our](https://wair.ai/forecasting-of-product-sales-patterns/) blogpost with some practical examples
+
 ## Abstract
 
 ```text
@@ -22,6 +27,7 @@ entire series. Finally, we observe the emergence of multi-step patch embeddings 
 training, suggesting the model actively learns discrete tokens that encode local structures
 in the data, analogous to vision transformers.
 ```
+
 
 ## Installation
 
