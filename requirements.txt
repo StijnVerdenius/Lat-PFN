@@ -9,7 +9,7 @@ mup>=1.0.0
 black
 seaborn
 matplotlib
-wandb==0.16.4
+wandb>=0.16.4
 # tensorflow==2.9.3
 # keras==2.9.0
 # statsmodel
